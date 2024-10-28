@@ -1,0 +1,222 @@
+.atom {
+
+	h2 {
+		margin-top: 2.5em;
+	}
+
+	.installation-guide {
+		background: #ffffff;
+		border: 1px solid #e5e5e5;
+		box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		margin-top: 30px;
+		padding: 15px;
+		position: relative;
+		display: inline-block;
+
+		img {
+			max-width: 20%;
+			max-height: 200px;
+			float: left;
+			margin-right: 15px;
+		}
+
+		span {
+			font-weight: bold;
+			padding-bottom: 10px;
+			display: block;
+		}
+
+		&::after {
+			display: block;
+			content: '';
+			clear: both;
+		}
+	}
+
+	.atom_shortcode_copy {
+		font-family: Consolas, Monaco, monospace;
+		background-color: #f2f2f2;
+		padding: 5px 10px;
+		min-width: 340px;
+		border: none;
+		box-shadow: none;
+		text-align: left;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	.aam-pro-info {
+		font-weight: bold;
+	}
+
+	.aam-pro-blur {
+		position: relative;
+		filter: blur(1px);
+		-moz-filter: blur(1px);
+		-webkit-filter: blur(1px);
+		opacity: 0.6;
+		-webkit-touch-callout: none; /* iOS Safari */
+    	-webkit-user-select: none; /* Safari */
+     	-khtml-user-select: none; /* Konqueror HTML */
+    	-moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+
+		&::before {
+			display: block;
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	table {
+
+		td {
+			vertical-align: middle;
+
+			&.atom_description {
+				padding: 0;
+
+				p {
+					margin-bottom: 20px;
+				}
+			}
+		}
+
+		&.wp-list-table {
+			table-layout: auto;
+
+			th {
+				padding: 8px 10px;
+				font-weight: 400;
+			}
+
+			td.actions {
+				text-align: center;
+
+				a, button {
+					margin: 2px 4px;
+					min-width: calc(50% - 10px);
+					text-align: center;
+
+					&.atom-accepted[disabled] {
+						background: #009900 !important;
+						color: white !important;
+						border-color: #009900 !important;
+					}
+				}
+
+				a.delete {
+					color: #a00;
+				}
+
+				.booking_date {
+					display: block;
+					text-align: center;
+					opacity: 0.6;
+				}
+			}
+
+			.color-indicator {
+				display: inline-block;
+				width: 1.2em;
+				height: 1.2em;
+				position: relative;
+				vertical-align: text-bottom;
+				border-radius: 0.6em;
+				margin-right: 0.4em;
+				box-shadow: 0 0 1px rgba(0,0,0,0.1);
+			}
+		}
+
+		.ui-sortable-helper {
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+	}
+
+	.wp-editor-wrap {
+		max-width: 600px;
+		width: 100%;
+	}
+
+	.atom_datepicker_value {
+		display: none !important;
+	}
+
+	.selectvalues-input {
+		display: none;
+	}
+
+	.atom-settings {
+
+		& > table.form-table {
+			max-width: 100%;
+			margin: 20px 0;
+			background: #FFF;
+			border: 1px solid #e5e5e5;
+			box-shadow: 0 1px 1px rgba(0,0,0,.04);
+
+			hr {
+				margin: 20px 0;
+			}
+
+			& > tbody {
+
+				& > tr {
+
+					&:first-child {
+
+						& > th,
+						& > td {
+							padding-top: 30px;
+						}
+					}
+
+					&:last-child {
+
+						hr {
+							display: none;
+						}
+					}
+
+					& > th {
+						text-align: left;
+						padding: 5px 15px;
+					}
+
+					& > td {
+						padding: 5px 15px;
+
+						& > input:not([type=checkbox]):not([type=radio]):not([type=button]):not([type=submit]),
+						& > textarea {
+							width: 100%;
+							max-width: 600px;
+						}
+					}
+				}
+			}
+
+		}
+
+	}
+
+	.table.widefat input:not([type=submit]):not([type=checkbox]) {
+		width: 100%;
+	}
+
+	.save-slot,
+	.cancel-edit-slot {
+		display: none;
+	}
+
+	.tablenav {
+		display: none;
+	}
+}

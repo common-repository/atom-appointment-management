@@ -1,0 +1,1835 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATOM Appointment Management 0.3.1\n"
+"POT-Creation-Date: 2023-02-03 10:22+0100\n"
+"PO-Revision-Date: 2023-02-03 10:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Altendorfer\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: atom-appointment-management-pro.php:52 atom-appointment-management.php:50
+msgid "Easily manage and schedule your customer appointments."
+msgstr "Einfache Verwaltung und Planung Ihrer Kundentermine."
+
+#: classes/aam-admin.class.php:50
+msgid "Copied to clipboard"
+msgstr "In Zwischenablage kopiert"
+
+#: classes/aam-admin.class.php:51
+msgid "Are you sure? You will no longer be able to view the associated data."
+msgstr ""
+"Sind Sie sicher? Sie können zugehörige Daten danach nicht mehr ansehen."
+
+#: classes/aam-admin.class.php:52
+msgid "Do you want to delete?"
+msgstr "Wollen Sie wirklich löschen?"
+
+#: classes/aam-admin.class.php:53 classes/entrytable.class.php:99
+#: classes/entrytable.class.php:103
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#: classes/aam-admin.class.php:54 classes/aam.class.php:538
+#: classes/entrytable.class.php:105 classes/entrytable.class.php:113
+#: pro/classes/aam-pro-exchange-connect.php:193
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: classes/aam-admin.class.php:72 classes/aam-admin.class.php:73
+#: classes/aam-admin.class.php:83 classes/aam-admin.class.php:94
+#: classes/aam-admin.class.php:105 classes/aam-admin.class.php:116
+#: classes/aam-admin.class.php:154
+msgid "Appointments"
+msgstr "Termine"
+
+#: classes/aam-admin.class.php:84 classes/aam-admin.class.php:155
+#: classes/aam-admin.class.php:743
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/aam-admin.class.php:95 classes/aam-admin.class.php:156
+msgid "Rule-Based Appointments"
+msgstr "Regelbasierte Termine"
+
+#: classes/aam-admin.class.php:106 classes/aam-admin.class.php:157
+msgid "Individual Appointments"
+msgstr "Individuelle Termine"
+
+#: classes/aam-admin.class.php:117 classes/aam-admin.class.php:158
+msgid "E-Mails"
+msgstr "E-Mails"
+
+#: classes/aam-admin.class.php:128
+msgid "New Appointment"
+msgstr "Neue Terminbuchungen"
+
+#: classes/aam-admin.class.php:151 pro/ics/index.php:29
+#: views/quick-reply-admin.php:110 views/quick-reply-user.php:65
+msgid "Appointment Management"
+msgstr "Terminbuchungen Verwaltung"
+
+#: classes/aam-admin.class.php:302
+msgid "General"
+msgstr "Allgemein"
+
+#: classes/aam-admin.class.php:309 views/admin/tab-category-override.php:53
+msgid "E-mail address for notifications"
+msgstr "E-Mail Adresse für Benachrichtigungen"
+
+#: classes/aam-admin.class.php:317
+msgid "Available weeks in advance"
+msgstr "Wochen im Voraus verfügbar"
+
+#: classes/aam-admin.class.php:325
+msgid "Hours until first appointment"
+msgstr "Stunden zum ersten Termin"
+
+#: classes/aam-admin.class.php:333
+msgid "Only count open hours"
+msgstr "Nur Öffnungszeiten zählen"
+
+#: classes/aam-admin.class.php:341
+msgid "Show fully booked appointments"
+msgstr "Ausgebuchte Termine anzeigen"
+
+#: classes/aam-admin.class.php:350
+msgid "Use formal language"
+msgstr "Formelle Sprache verwenden"
+
+#: classes/aam-admin.class.php:359
+msgid "Enable calendar subscription"
+msgstr "Kalender Abonnement aktivieren"
+
+#: classes/aam-admin.class.php:368
+msgid "Categories"
+msgstr "Kategorien"
+
+#: classes/aam-admin.class.php:375
+msgid "Manage categories"
+msgstr "Kategorien verwalten"
+
+#: classes/aam-admin.class.php:384 classes/aam-admin.class.php:1168
+#: pro/classes/aam-pro-admin.class.php:183
+msgid "Color scheme"
+msgstr "Farbschema"
+
+#: classes/aam-admin.class.php:391
+msgid "Main color"
+msgstr "Hauptfarbe"
+
+#: classes/aam-admin.class.php:394
+msgid ""
+"Calendar entries and some form elements will be displayed in this color."
+msgstr ""
+"Kalendereinträge und Formularelemente werden in dieser Farbe dargestellt."
+
+#: classes/aam-admin.class.php:404
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: classes/aam-admin.class.php:407
+msgid ""
+"Background color of the calendar and popup. Make sure to adjust text color "
+"to keep everything readable."
+msgstr ""
+"Hintergrundfarbe des Kalenders und des Popups. Passen Sie die Textfarbe "
+"entsprechend an, damit alles gut lesbar ist."
+
+#: classes/aam-admin.class.php:417
+msgid "Border color"
+msgstr "Rahmenfarbe"
+
+#: classes/aam-admin.class.php:420
+msgid "Color of table cells and rows."
+msgstr "Farbe der Zellen und Reihen der Tabelle."
+
+#: classes/aam-admin.class.php:430
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: classes/aam-admin.class.php:433
+msgid ""
+"Color of text for calendar labels and popup. Make sure this has enough "
+"contrast with \"Background color\"."
+msgstr ""
+"Textfarbe für Kalenderbeschriftungen und das Popup. Stellen Sie sicher, dass "
+"die Farbe genug Kontrast zu „Hintergrundfarbe“ hat."
+
+#: classes/aam-admin.class.php:443
+msgid "Calendar entry text color"
+msgstr "Textfarbe für Kalendereinträge"
+
+#: classes/aam-admin.class.php:446
+msgid ""
+"Color of text for calendar entries. Make sure this has enough contrast with "
+"\"Main color\"."
+msgstr ""
+"Farbe des Textes für Kalendereinträge. Achten Sie darauf, dass die Farbe "
+"einen ausreichenden Kontrast zur \"Hauptfarbe\" hat."
+
+#: classes/aam-admin.class.php:457
+msgid "Content"
+msgstr "Inhalte"
+
+#: classes/aam-admin.class.php:464
+msgid "Description next to form"
+msgstr "Infotext neben Formular"
+
+#: classes/aam-admin.class.php:480
+msgid "Inquiry thank you text"
+msgstr "Anfrage Dankestext"
+
+#: classes/aam-admin.class.php:489
+msgid "Form fields"
+msgstr "Formularfelder"
+
+#: classes/aam-admin.class.php:496
+msgid "Manage form fields"
+msgstr "Formularfelder verwalten"
+
+#: classes/aam-admin.class.php:504
+msgid "Send button label"
+msgstr "Absenden Button Beschriftung"
+
+#: classes/aam-admin.class.php:513
+msgid "Call To Action"
+msgstr "Call to Action"
+
+#: classes/aam-admin.class.php:520 classes/aam-admin.class.php:535
+msgid "Link"
+msgstr "Link"
+
+#: classes/aam-admin.class.php:527 classes/aam-admin.class.php:542
+msgid "Image"
+msgstr "Bild"
+
+#: classes/aam-admin.class.php:549
+msgid "Redirect URL"
+msgstr "Weiterleitungs-URL"
+
+#: classes/aam-admin.class.php:558
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: classes/aam-admin.class.php:565
+msgid "Require user consent for submitting and processing data"
+msgstr "Erlaubnis zum Speichern und Bearbeiten der Daten des Nutzers einholen"
+
+#: classes/aam-admin.class.php:572
+msgid "Privacy information text"
+msgstr "Datenschutz Infotext"
+
+#: classes/aam-admin.class.php:579
+msgid "Link to privacy policy"
+msgstr "Link zur Datenschutzerklärung"
+
+#: classes/aam-admin.class.php:586
+msgid "Automatically delete older entries"
+msgstr "Alte Einträge automatisch löschen"
+
+#: classes/aam-admin.class.php:595
+msgid "Microsoft Exchange"
+msgstr "Microsoft Exchange"
+
+#: classes/aam-admin.class.php:602
+msgid "Activate Microsoft Exchange Connection"
+msgstr "Aktivieren der Microsoft Exchange Verbindung"
+
+#: classes/aam-admin.class.php:609 views/admin/tab-category-override.php:266
+msgid "Exchange Server"
+msgstr "Exchange Server"
+
+#: classes/aam-admin.class.php:616
+msgid "Exchange Username"
+msgstr "Exchange Benutzername"
+
+#: classes/aam-admin.class.php:623
+msgid "Exchange Password"
+msgstr "Exchange Passwort"
+
+#: classes/aam-admin.class.php:632
+msgid "Analytics"
+msgstr "Analytics"
+
+#: classes/aam-admin.class.php:639
+msgid "Disable conversion tracking for logged in administrators"
+msgstr "Conversion-Tracking für eingeloggte Administratoren deaktivieren"
+
+#: classes/aam-admin.class.php:656
+msgid "Office hours"
+msgstr "Öffnungszeiten"
+
+#: classes/aam-admin.class.php:663 views/admin/tab-category-override.php:110
+msgid "Edit work days and hours"
+msgstr "Arbeitstage und verfügbare Zeiten einstellen"
+
+#: classes/aam-admin.class.php:672 classes/excpttable.class.php:26
+msgid "Duration"
+msgstr "Dauer"
+
+#: classes/aam-admin.class.php:679 views/admin/tab-category-override.php:152
+msgid "Duration of appointments"
+msgstr "Termindauer"
+
+#: classes/aam-admin.class.php:687 views/admin/tab-category-override.php:164
+msgid "Break between appointments"
+msgstr "Pause zwischen Terminen"
+
+#: classes/aam-admin.class.php:696 classes/aam.class.php:537
+#: pro/classes/aam-pro-exchange-connect.php:192
+msgid "Appointment"
+msgstr "Termin"
+
+#: classes/aam-admin.class.php:703 views/admin/tab-category-override.php:176
+#: views/admin/tab-email.php:36
+msgid "Appointment title"
+msgstr "Termin Titel"
+
+#: classes/aam-admin.class.php:719 pro/classes/slottable.class.php:29
+#: pro/views/admin/tab-individual.php:49
+#: views/admin/tab-category-override.php:188 views/admin/tab-individual.php:51
+msgid "More information link"
+msgstr "Mehr Informationen Link"
+
+#: classes/aam-admin.class.php:727 pro/views/admin/tab-individual.php:39
+#: views/admin/tab-category-override.php:224 views/admin/tab-individual.php:43
+msgid "Maximum number of appointments per time slot"
+msgstr "Maximale Anzahl Termine pro Zeitslot"
+
+#: classes/aam-admin.class.php:758
+msgid "Request received mail"
+msgstr "Anfrage erhalten E-Mail"
+
+#: classes/aam-admin.class.php:765
+msgid "Enable request received mail"
+msgstr "Anfrage erhalten E-Mail aktivieren"
+
+#: classes/aam-admin.class.php:773 classes/aam-admin.class.php:821
+#: classes/aam-admin.class.php:845 classes/aam-admin.class.php:885
+msgid "Subject"
+msgstr "Betreff"
+
+#: classes/aam-admin.class.php:781 classes/aam-admin.class.php:829
+#: classes/aam-admin.class.php:853 classes/aam-admin.class.php:893
+#: classes/aam-admin.class.php:1301 pro/classes/aam-pro-admin.class.php:267
+#: pro/classes/aam-pro-admin.class.php:303
+msgid "Text"
+msgstr "Text"
+
+#: classes/aam-admin.class.php:789
+msgid "Cancel info"
+msgstr "Absagen Info"
+
+#: classes/aam-admin.class.php:798
+msgid "Automated E-Mails"
+msgstr "Automatisierte E-Mails"
+
+#: classes/aam-admin.class.php:805
+msgid "Enable automated e-mails"
+msgstr "Automatisierte E-Mails aktivieren"
+
+#: classes/aam-admin.class.php:814
+msgid "Confirmation mail"
+msgstr "Bestätigungs E-Mail"
+
+#: classes/aam-admin.class.php:838
+msgid "Cancellation mail"
+msgstr "Absage E-Mail"
+
+#: classes/aam-admin.class.php:862
+msgid "Reminder mail"
+msgstr "Erinnerungs-E-Mail"
+
+#: classes/aam-admin.class.php:869
+msgid "Schedule reminder 1 (X days before appointment)"
+msgstr "Erinnerungs-E-Mail 1 (X Tage vor dem Termin)"
+
+#: classes/aam-admin.class.php:877
+msgid "Schedule reminder 2 (X days before appointment)"
+msgstr "Erinnerungs-E-Mail 2 (X Tage vor dem Termin)"
+
+#: classes/aam-admin.class.php:902
+msgid "Sender for automated emails"
+msgstr "Absender für automatische E-Mails"
+
+#: classes/aam-admin.class.php:909
+msgid "Sender name"
+msgstr "Absender Name"
+
+#: classes/aam-admin.class.php:917
+msgid "Sender email"
+msgstr "Absender E-Mail"
+
+#: classes/aam-admin.class.php:949
+msgid "The number of weeks for which appointments are availiable in advance"
+msgstr "Die Anzahl an Wochen, die Termine im Voraus verfügbar sind"
+
+#: classes/aam-admin.class.php:960
+msgid ""
+"The minimum number of hours between the booking and the start of an "
+"appointment."
+msgstr "Die minimale Zeitspanne zwischen Buchung und Beginnzeit eines Termins."
+
+#: classes/aam-admin.class.php:971
+msgid ""
+"When activated, only open hours count for the above minimum number of hours "
+"between booking and start of an appointment."
+msgstr ""
+"Wenn aktiviert, zählen nur Öffnungszeiten zu der minimalen Zeitspanne "
+"zwischen Buchung und Beginn des Termins."
+
+#: classes/aam-admin.class.php:982
+msgid "Show fully booked appointments as greyed out entries in the calendar."
+msgstr "Ausgebuchte Termine als ausgegraute Einträge im Kalender anzeigen."
+
+#: classes/aam-admin.class.php:993
+msgid "Enable formal language on the frontend and backend of this plugin."
+msgstr ""
+"Aktiviert formelle „Sie“ Anrede für dieses Plugin im Frontend und Backend."
+
+#: classes/aam-admin.class.php:1004 pro/classes/aam-pro-admin.class.php:157
+msgid ""
+"ICS Calendar subscription allows you to automatically display all your "
+"booked appointments in your favourite calendar app (like Apple Calendar, "
+"Microsoft Outlook or Google Calendar)."
+msgstr ""
+"ICS Kalender Abonnement erlaubt es Ihnen, alle gebuchten Termine automatisch "
+"in Ihrem Kalenderprogramm anzuzeigen (wie Apple Kalender, Microsoft Outlook "
+"oder Google Kalender)."
+
+#: classes/aam-admin.class.php:1016 views/admin/tab-category-override.php:229
+msgid "The number of appointments that can be booked for the same time slot."
+msgstr ""
+"Die Anzahl an Terminen, die gleichzeitig zur selben Zeit vergeben werden "
+"dürfen."
+
+#: classes/aam-admin.class.php:1027 classes/aam-admin.class.php:1056
+#: views/admin/tab-category-override.php:181
+#: views/admin/tab-category-override.php:217
+msgid ""
+"This title will be displayed in the calendar and when users book the "
+"appointment."
+msgstr ""
+"Der Titel wird im Kalender und wenn der Kunde einen Termin bucht angezeigt."
+
+#: classes/aam-admin.class.php:1039
+msgid "The price will be displayed to your customer during booking."
+msgstr "Der Preis wird Ihrem Kunden bei der Buchung angezeigt."
+
+#: classes/aam-admin.class.php:1041
+msgid ""
+"With PayPal configured, customers will be instructed to pay before they can "
+"make the appointment."
+msgstr ""
+"Wenn PayPal konfiguriert ist, werden die Kunden angewiesen, zu bezahlen, "
+"bevor sie den Termin vereinbaren können."
+
+#: classes/aam-admin.class.php:1043
+msgid ""
+"With AAM Pro and PayPal configured, customers can be instructed to pay "
+"before they can make the appointment."
+msgstr ""
+"Wenn AAM Pro und PayPal konfiguriert sind, können Kunden angewiesen werden, "
+"zu bezahlen, bevor sie den Termin vereinbaren können."
+
+#: classes/aam-admin.class.php:1067
+msgid "Enter your license key here to enable plugin updates."
+msgstr ""
+"Geben Sie hier den Lizenzschlüssel ein, um Plugin Updates zu aktivieren."
+
+#: classes/aam-admin.class.php:1078
+msgid ""
+"Notifications are sent to this mail address when a new appointment is booked."
+msgstr ""
+"An diese E-Mail Adresse werden Benachrichtigungen zu neuen Terminanfragen "
+"gesendet."
+
+#: classes/aam-admin.class.php:1088 views/admin/tab-category-override.php:116
+msgid "Monday"
+msgstr "Montag"
+
+#: classes/aam-admin.class.php:1089 views/admin/tab-category-override.php:117
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: classes/aam-admin.class.php:1090 views/admin/tab-category-override.php:118
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: classes/aam-admin.class.php:1091 views/admin/tab-category-override.php:119
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: classes/aam-admin.class.php:1092 views/admin/tab-category-override.php:120
+msgid "Friday"
+msgstr "Freitag"
+
+#: classes/aam-admin.class.php:1093 views/admin/tab-category-override.php:121
+msgid "Saturday"
+msgstr "Samstag"
+
+#: classes/aam-admin.class.php:1094 views/admin/tab-category-override.php:122
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: classes/aam-admin.class.php:1101 classes/excpttable.class.php:25
+#: pro/views/admin/tab-rule-based.php:34
+#: views/admin/tab-category-override.php:129 views/admin/tab-rule-based.php:34
+msgid "Start"
+msgstr "Beginn"
+
+#: classes/aam-admin.class.php:1102 pro/views/admin/tab-rule-based.php:42
+#: views/admin/tab-category-override.php:130 views/admin/tab-rule-based.php:42
+msgid "End"
+msgstr "Ende"
+
+#: classes/aam-admin.class.php:1117
+msgid ""
+"Edit available days and hours for appointments. Exceptions to this rules, "
+"like holidays or vacations can be set below or by removing slots from the "
+"front-end widget."
+msgstr ""
+"Die verfügbaren Tage und Zeiten für Termine. Ausnahmen wie Feiertage oder "
+"Betriebsurlaube können weiter unten oder direkt im Kalender festgelegt "
+"werden."
+
+#: classes/aam-admin.class.php:1133 views/admin/tab-category-override.php:157
+msgid "The duration of a single appointment in hours and minutes"
+msgstr "Die Dauer eines Termins in Stunden und Minuten"
+
+#: classes/aam-admin.class.php:1144 views/admin/tab-category-override.php:169
+msgid "The duration between two appointments in hours and minutes."
+msgstr "Zeitdauer zwischen den Terminen in Stunden und Minuten."
+
+#: classes/aam-admin.class.php:1155
+msgid "The calendar and some form elements will be displayed in this color."
+msgstr "Kalender und Formularelemente werden in dieser Farbe dargestellt."
+
+#: classes/aam-admin.class.php:1167 includes/default-options.php:57
+#: pro/classes/aam-pro-admin.class.php:182
+msgid "Name"
+msgstr "Name"
+
+#: classes/aam-admin.class.php:1177 pro/classes/aam-pro-admin.class.php:192
+msgid "Not yet saved"
+msgstr "Noch nicht gespeichert"
+
+#: classes/aam-admin.class.php:1185 pro/classes/aam-pro-admin.class.php:213
+msgid "Category Settings"
+msgstr "Kategorie Einstellungen"
+
+#: classes/aam-admin.class.php:1186 classes/aam-admin.class.php:1316
+#: pro/classes/aam-pro-admin.class.php:193
+#: pro/classes/aam-pro-admin.class.php:214
+#: pro/classes/aam-pro-admin.class.php:277
+#: pro/classes/aam-pro-admin.class.php:327 views/frontend-modal.php:148
+#: views/frontend-modal.php:158 views/frontend-modal.php:164
+msgid "Remove"
+msgstr "Entfernen"
+
+#: classes/aam-admin.class.php:1194 classes/aam-admin.class.php:1330
+#: pro/classes/aam-pro-admin.class.php:228
+#: pro/classes/aam-pro-admin.class.php:342
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: classes/aam-admin.class.php:1203 pro/classes/aam-pro-admin.class.php:239
+#, php-format
+msgid ""
+"Categories allow you to group individual appointments.<br />Display only "
+"select categories in your calendar by adding the category parameter to your "
+"shortcode, for example: %s"
+msgstr ""
+"Kategorien erlauben das Gruppieren von individuellen Terminen.<br>Zeigen Sie "
+"nur ausgewählte Kategorien im Kalender an, indem Sie den Kategorie-Parameter "
+"zum Shortcode hinzufügen, zum Beispiel: %s"
+
+#: classes/aam-admin.class.php:1222
+msgid ""
+"This text will be displayed next to the form when a user has selected a date."
+msgstr ""
+"Dieser Text wird dem Kunden neben dem Formular angezeigt, wenn er einen "
+"Termin ausgewählt hat."
+
+#: classes/aam-admin.class.php:1233
+#, php-format
+msgid ""
+"This text will be displayed after a successful booking. %s is a placeholder "
+"and will be replaced with the user's email address."
+msgstr ""
+"Dieser Text wird nach erfolgreicher Buchung angezeigt. %s ist ein "
+"Platzhalter und wird durch die E-Mail-Adresse des Benutzers ersetzt."
+
+#: classes/aam-admin.class.php:1253 classes/aam-admin.class.php:1379
+#: classes/aam-admin.class.php:1412
+msgid "Choose/Upload Image"
+msgstr "Bild auswählen/hochladen"
+
+#: classes/aam-admin.class.php:1260
+msgid ""
+"Optional background image for the form. A static grey background will be "
+"displayed when no image is choosen."
+msgstr ""
+"Optionales Hintergrundbild für das Formular. Wenn kein Bild verfügbar ist, "
+"wird ein grauer Hintergrund angezeigt."
+
+#: classes/aam-admin.class.php:1275 pro/classes/aam-pro-admin.class.php:252
+msgid "Label"
+msgstr "Beschriftung"
+
+#: classes/aam-admin.class.php:1276 pro/classes/aam-pro-admin.class.php:253
+msgid "ID"
+msgstr "ID"
+
+#: classes/aam-admin.class.php:1277 pro/classes/aam-pro-admin.class.php:254
+msgid "Field type"
+msgstr "Feldtyp"
+
+#: classes/aam-admin.class.php:1278 pro/classes/aam-pro-admin.class.php:255
+msgid "Required"
+msgstr "Pflichtfeld"
+
+#: classes/aam-admin.class.php:1297 includes/default-options.php:62
+#: pro/classes/aam-pro-admin.class.php:298
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: classes/aam-admin.class.php:1302 pro/classes/aam-pro-admin.class.php:269
+#: pro/classes/aam-pro-admin.class.php:305
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: classes/aam-admin.class.php:1303 pro/classes/aam-pro-admin.class.php:270
+#: pro/classes/aam-pro-admin.class.php:306
+msgid "Select field"
+msgstr "Auswahlfeld"
+
+#: classes/aam-admin.class.php:1338 pro/classes/aam-pro-admin.class.php:350
+msgid ""
+"Add the form fields your user has to fill out when he wants to book an "
+"appointment. You can also drag and reorder the fields as you like. The E-"
+"Mail field is required and cannot be deleted."
+msgstr ""
+"Fügen Sie die Formularfelder hinzu, die der Nutzer bei der Buchung eines "
+"Termins ausfüllen muss. Sie können die Reihenfolge der Felder durch klicken "
+"und ziehen verändern. Das E-Mail Feld ist ein Pflichtfeld und kann nicht "
+"gelöscht werden."
+
+#: classes/aam-admin.class.php:1350
+msgid ""
+"Changes the text on the button to send the form and make the appointment."
+msgstr ""
+"Ändert den Text auf dem Button, um das Formular zu senden und den Termin zu "
+"vereinbaren."
+
+#: classes/aam-admin.class.php:1357
+msgid ""
+"When your customer successfully scheduled an appointment, you can offer him "
+"other actions to take, like subscribing to your newsletter or liking your "
+"facebook page."
+msgstr ""
+"Wenn der Kunde erfolgreich einen Termin ausgewählt hat, können Sie ihm "
+"andere Aktionen anbieten wie zum Beispiel sich für den Newsletter anzumelden "
+"oder die Facebook-Seite zu liken."
+
+#: classes/aam-admin.class.php:1386
+msgid ""
+"The first CTA (Call to Action) field. Leave link and image empty to disable "
+"this feature."
+msgstr ""
+"Das erste CTA (Call to Action) Feld. Lassen Sie Link und Bild leer um das "
+"Feld zu deaktivieren."
+
+#: classes/aam-admin.class.php:1419
+msgid ""
+"The second CTA (Call to Action) field. Leave link and image empty to disable "
+"this feature."
+msgstr ""
+"Das zweite CTA (Call to Action) Feld. Lassen Sie Link und Bild leer um das "
+"Feld zu deaktivieren."
+
+#: classes/aam-admin.class.php:1431
+msgid ""
+"As an alternative to the CTA images, you can specify a page where your "
+"customers will be automatically redirected after a successful booking."
+msgstr ""
+"Alternativ zu den CTA-Bildern können Sie eine Seite angeben, auf die Ihre "
+"Kunden nach einer erfolgreichen Buchung automatisch weitergeleitet werden."
+
+#: classes/aam-admin.class.php:1438
+msgid ""
+"Enable this option to require the user to give his consent for processing "
+"and storing his data. This makes the plugin compliant with EU-DSGVO."
+msgstr ""
+"Aktivieren Sie diese Option, um vom Nutzer die Erlaubnis zum Speichern und "
+"Bearbeiten seiner Daten einzuholen. Damit wird das Plugin konform mit der EU-"
+"DSGVO."
+
+#: classes/aam-admin.class.php:1462
+msgid "Never"
+msgstr "Nie"
+
+#: classes/aam-admin.class.php:1466
+#, php-format
+msgid "after %s month"
+msgid_plural "after %s months"
+msgstr[0] "Nach %s Monat"
+msgstr[1] "Nach %s Monaten"
+
+#: classes/aam-admin.class.php:1471
+#, php-format
+msgid "after %s year"
+msgid_plural "after %s years"
+msgstr[0] "Nach %s Jahr"
+msgstr[1] "Nach %s Jahren"
+
+#: classes/aam-admin.class.php:1481 views/admin/tab-category-override.php:252
+msgid ""
+"Sync your appointments immediately with your Microsoft Exchange Calendar. "
+"Existing calendar entries will block the time slot for new appointments."
+msgstr ""
+"Synchronisieren Sie Ihre Termine mit Ihrem Microsoft Exchange Kalender. "
+"Vorhandene Kalendereinträge blockieren das Zeitfenster für neue Termine."
+
+#: classes/aam-admin.class.php:1487
+msgid ""
+"You can also configure different Exchange accounts per category in the "
+"category settings."
+msgstr ""
+"Sie können verschiedene Exchange Konten pro Kategorie in den "
+"Kategorieeinstellungen konfigurieren."
+
+#: classes/aam-admin.class.php:1510
+#, php-format
+msgid ""
+"Specify a custom name and email address that automated messages from this "
+"plugin will be sent from.<br />To avoid your email being marked as spam, it "
+"is highly recommended that your \"from\" domain matches your website domain. "
+"Some hosts may also require that your \"from\" address is a legitimate "
+"address.<br />If you have problems receiving emails, consider using a plugin "
+"like %s and leaving the settings below empty."
+msgstr ""
+"Geben Sie den Namen und die E-Mail Adresse ein, von der automatische "
+"Nachrichten dieses Plugins gesendet werden sollen.<br>Die E-Mail Domain "
+"sollte mit der Domain der Webseite übereinstimmen, damit E-Mails nicht als "
+"Spam markiert werden. Manche Hosting-Provider verlangen außerdem, dass die "
+"Absenderadresse eine wirklich existierende Adresse ist.<br>Wenn Sie Probleme "
+"mit dem Empfangen von E-Mails haben, laden Sie ein Plugin wie %s herunter "
+"und lassen Sie diese Felder leer."
+
+#: classes/aam-admin.class.php:1527
+msgid ""
+"Your customers will receive a confirmation email when they request an "
+"appointment. The email contains an overview of the appointment details and "
+"you can customize the accompanying text and subject line."
+msgstr ""
+"Ihre Kunden erhalten ein Bestätigungsmail, wenn sie einen Termin anfragen. "
+"Das E-Mail enthält eine Übersicht über die Termindetails und Sie können den "
+"Betreff und Begleittext anpassen."
+
+#: classes/aam-admin.class.php:1560 pro/classes/aam-pro-admin.class.php:360
+msgid ""
+"If enabled, your customer will receive automated and beautifully formatted e-"
+"mails when you confirm or cancel an appointment. If you disable this option, "
+"an e-mail window will pop up with the predefined text and you can send the "
+"mail manually."
+msgstr ""
+"Ihre Kunden erhalten automatische und schön formatierte E-Mails, wenn Sie "
+"einen Termin bestätigen oder absagen. Wenn Sie diese Option deaktivieren, "
+"erscheint stattdessen ein E-Mail Fenster mit dem vordefinierten Text und Sie "
+"können die E-Mail manuell versenden."
+
+#: classes/aam-admin.class.php:1567
+msgid ""
+"Your customers will receive an email notification when you confirm their "
+"appointment. The email contains an overview of the appointment details and "
+"you can customize the accompanying text and subject line."
+msgstr ""
+"Ihre Kunden erhalten eine E-Mail Benachrichtigung, wenn Sie ihren Termin "
+"bestätigen. Das E-Mail enthält eine Übersicht über die Termindetails und Sie "
+"können den Betreff und Begleittext anpassen."
+
+#: classes/aam-admin.class.php:1584
+msgid ""
+"Your customers will receive an email notification when you cancel their "
+"appointment. You can customize the text and subject line."
+msgstr ""
+"Ihre Kunden erhalten eine E-Mail Benachrichtigung, wenn Sie ihren Termin "
+"absagen. Sie können den Betreff und Begleittext anpassen."
+
+#: classes/aam-admin.class.php:1602
+msgid ""
+"Send automated emails to remind yourself and your customer about an upcoming "
+"appointment. You can schedule up to two reminder emails that will be sent "
+"the configured number of days before the appointment. Leave the schedule "
+"empty to disable reminder emails."
+msgstr ""
+"Senden Sie automatisierte E-Mails, um sich und Ihre Kunden an einen "
+"bevorstehenden Termin zu erinnern. Sie können bis zu zwei Erinnerungs-E-"
+"Mails planen, die die konfigurierte Anzahl von Tage vor dem Termin gesendet "
+"werden. Lassen Sie den Zeitplan leer, um Erinnerungs-E-Mails zu deaktivieren."
+
+#: classes/aam-admin.class.php:1607 classes/aam-admin.class.php:1613
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: classes/aam-admin.class.php:1632
+msgid ""
+"This plugin supports Google Analytics and Facebook Pixel. If you have "
+"enabled Google Analytics (analytics.js or gtag.js), you will automatically "
+"receive events when an appointment is booked. The event is called "
+"<code>appointment_booked</code> and contains the appointment title as "
+"parameter. Facebook Pixel will send a standard <code>Lead</code> event."
+msgstr ""
+"Dieses Plugin unterstützt Google Analytics und Facebook Pixel. Wenn Sie "
+"Google Analytics aktiviert haben (analytics.js or gtag.js), empfangen Sie "
+"automatisch Ereignisse sobald ein Termin gebucht wurde. Das Ereignis heißt "
+"<code>appointment_booked</code> und enthält den Titel des Termins als "
+"Parameter. Facebook Pixel sendet ein Standard <code>Lead</code> Event."
+
+#: classes/aam-admin.class.php:1638
+msgid ""
+"Enable this option to prevent your bookings as admin to show up as "
+"conversions in your analytics."
+msgstr ""
+"Aktivieren Sie diese Option, um zu verhindern, dass Ihre Buchungen als "
+"Administrator in Ihrer Analyse als Conversion angezeigt werden."
+
+#: classes/aam-admin.class.php:1643
+#, php-format
+msgid ""
+"Get this feature and many more with <a href=\"%s\" target=\"_blank\">AAM "
+"PRO</a>."
+msgstr ""
+"Holen Sie sich diese Funktion und viele mehr mit <a href=\"%s\" "
+"target=\"_blank\">AAM PRO</a>."
+
+#: classes/aam-admin.class.php:1699
+msgid "Invalid E-mail entered as notification address."
+msgstr "Ungültige E-Mail Adresse für Benachrichtigungen eingegeben."
+
+#: classes/aam-admin.class.php:1787 classes/aam.class.php:424
+#: pro/classes/slottable.class.php:78 pro/views/admin/tab-individual.php:52
+#: pro/views/admin/tab-individual.php:75
+#: views/admin/tab-category-override.php:196 views/admin/tab-individual.php:54
+#: views/admin/tab-individual.php:62
+msgid "None"
+msgstr "Keine"
+
+#: classes/aam-admin.class.php:1788 views/admin/tab-category-override.php:197
+msgid "External URL"
+msgstr "Externer Link"
+
+#: classes/aam-admin.class.php:1790 pro/views/admin/tab-individual.php:54
+#: views/admin/tab-category-override.php:199
+msgid "Pages"
+msgstr "Seiten"
+
+#: classes/aam-admin.class.php:1796 pro/views/admin/tab-individual.php:61
+#: views/admin/tab-category-override.php:205
+msgid "Posts"
+msgstr "Beiträge"
+
+#: classes/aam-email.class.php:100
+#, php-format
+msgid "You received a new request for an appointment on %s."
+msgstr "Es gibt eine neue Anfrage für einen Termin bei %s."
+
+#: classes/aam-email.class.php:110 classes/aam-email.class.php:160
+#: classes/aam-email.class.php:197 classes/aam-email.class.php:239
+#: classes/aam-email.class.php:281 classes/aam-email.class.php:318
+#: classes/entrytable.class.php:31 classes/excpttable.class.php:27
+#: pro/classes/slottable.class.php:30 pro/views/admin/tab-individual.php:72
+#: views/admin/tab-individual.php:59
+msgid "Category"
+msgstr "Kategorie"
+
+#: classes/aam-email.class.php:118
+msgid ""
+"Click confirm or cancel to let the user know if the appointment will take "
+"place."
+msgstr ""
+"Klicken Sie auf Bestätigen oder Absagen um den Kunden wissen zu lassen, ob "
+"der Termin stattfindet."
+
+#: classes/aam-email.class.php:124 classes/aam.class.php:544
+#: pro/classes/aam-pro-exchange-connect.php:199
+msgid "Confirm Appointment"
+msgstr "Termin bestätigen"
+
+#: classes/aam-email.class.php:129 classes/aam.class.php:545
+#: pro/classes/aam-pro-exchange-connect.php:200
+msgid "Cancel Appointment"
+msgstr "Termin absagen"
+
+#: classes/aam-email.class.php:148
+msgid "Appointment has been cancelled"
+msgstr "Der Termin wurde abgesagt"
+
+#: classes/aam-email.class.php:150
+#, php-format
+msgid "An appointment on %s has been cancelled by the customer."
+msgstr "Ein Termin auf %s wurde vom Kunden abgesagt."
+
+#: classes/aam-email.class.php:209 classes/aam-email.class.php:251
+#: classes/aam-email.class.php:289 classes/aam-email.class.php:330
+msgid "Visit our website"
+msgstr "Besuchen Sie unsere Webseite"
+
+#: classes/aam.class.php:141
+msgid "Sending..."
+msgstr "Senden…"
+
+#: classes/aam.class.php:142
+msgid "Error, please try again"
+msgstr "Fehler, bitte erneut versuchen"
+
+#: classes/aam.class.php:143
+msgid "Unavailable, please choose a different date"
+msgstr "Belegt, bitte wählen Sie einen anderen Termin"
+
+#: classes/aam.class.php:144
+msgid "Today"
+msgstr "Heute"
+
+#: classes/aam.class.php:546
+msgid "Last Update"
+msgstr "Letztes Update"
+
+#: classes/aam.class.php:643
+msgid "New Appointment Request"
+msgstr "Neue Terminanfrage"
+
+#: classes/aam.class.php:971 pro/classes/aam-pro.class.php:212
+#: pro/classes/aam-pro.class.php:261
+msgid "Booked"
+msgstr "Gebucht"
+
+#: classes/entrytable.class.php:29 pro/classes/slottable.class.php:26
+#: pro/views/admin/tab-individual.php:24 views/admin/tab-individual.php:29
+msgid "Date"
+msgstr "Datum"
+
+#: classes/entrytable.class.php:30 pro/classes/slottable.class.php:27
+msgid "Time"
+msgstr "Zeit"
+
+#: classes/entrytable.class.php:32 pro/classes/slottable.class.php:28
+#: pro/views/admin/tab-individual.php:20 views/admin/tab-individual.php:25
+msgid "Title"
+msgstr "Titel"
+
+#: classes/entrytable.class.php:90
+msgid "Show more"
+msgstr "Mehr zeigen"
+
+#: classes/entrytable.class.php:95
+msgid "Booked on"
+msgstr "Gebucht am"
+
+#: classes/entrytable.class.php:100
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: classes/entrytable.class.php:104
+msgid "Not confirmed"
+msgstr "Nicht bestätigt"
+
+#: classes/entrytable.class.php:107 classes/excpttable.class.php:99
+#: pro/classes/slottable.class.php:134
+msgid "Delete"
+msgstr "Löschen"
+
+#: classes/entrytable.class.php:111
+msgctxt "Cancel Appointment"
+msgid "Cancel"
+msgstr "Absagen"
+
+#: classes/entrytable.class.php:115
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: classes/excpttable.class.php:28 pro/views/admin/tab-rule-based.php:50
+#: views/admin/tab-rule-based.php:50
+msgid "Description"
+msgstr "Beschreibung"
+
+#: classes/excpttable.class.php:49 pro/views/admin/tab-rule-based.php:30
+#: views/admin/tab-rule-based.php:30
+msgid "Full day"
+msgstr "Ganztägig"
+
+#: classes/excpttable.class.php:97
+msgid "Removed from calendar"
+msgstr "Vom Kalender entfernt"
+
+#: includes/default-options.php:52
+#, php-format
+msgid ""
+"Yes, I agree that the entered information will be processed and stored by %s "
+"to manage this appointment."
+msgstr ""
+"Ja, ich bin einverstanden, dass meine eingegebenen Daten zum Zweck der "
+"Terminvereinbarung von %s gespeichert und verarbeitet werden."
+
+#: includes/default-options.php:54
+#, php-format
+msgid ""
+"Thank you for contacting us.\n"
+"You will get notified at %s when the appointment has been confirmed."
+msgstr ""
+"Vielen Dank für Ihre Anfrage.\n"
+"Sie bekommen eine Benachrichtigung an %s, sobald der Termin bestätigt wurde."
+
+#: includes/default-options.php:68
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/default-options.php:73
+msgid "Make appointment"
+msgstr "Termin buchen"
+
+#: includes/default-options.php:75
+msgid "Thank you for appointment request"
+msgstr "Vielen Dank für Ihre Terminanfrage"
+
+#: includes/default-options.php:76
+msgid ""
+"We received your appointment request and we will notify you once it has been "
+"confirmed."
+msgstr ""
+"Wir haben Ihre Terminanfrage erhalten und wir werden Sie benachrichtigen, "
+"sobald die Anfrage bestätigt wurde."
+
+#: includes/default-options.php:77
+#, php-format
+msgid ""
+"Please <a href=\"%s\">cancel your appointment</a> in time if your plans "
+"change."
+msgstr ""
+"Bitte <a href=\"%s\">sagen Sie Ihren Termin rechtzeitig ab</a>, falls sich "
+"Ihre Pläne ändern."
+
+#: includes/default-options.php:78
+msgid "Your appointment has been confirmed"
+msgstr "Ihr Termin wurde bestätigt"
+
+#: includes/default-options.php:79
+msgid ""
+"We are happy to inform you that your appointment has been confirmed. Thank "
+"you for contacting us, we look forward to the appointment."
+msgstr ""
+"Wir freuen uns Ihnen mitzuteilen, dass Ihr Termin bestätigt wurde. Vielen "
+"Dank für die Kontaktaufnahme, wir freuen uns auf den Termin."
+
+#: includes/default-options.php:80
+msgid "Your appointment has been cancelled"
+msgstr "Ihr Termin wurde abgesagt"
+
+#: includes/default-options.php:81
+msgid ""
+"Unfortunately we have to cancel your appointment on ((date)) at ((time)). "
+"Please contact us to find a different arrangement."
+msgstr ""
+"Leider mussten wir Ihren Termin am ((date)) um ((time)) absagen. Bitte "
+"kontaktieren Sie uns, um einen anderen Termin zu finden."
+
+#: js/dependencies.min.js:1
+msgid "M"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "MM"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "MMM"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "MMMM"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Y"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "YY"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "YYYY"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "YYYYY"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "YYYYYY"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "w"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "ww"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "W"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "WW"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "d"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "e"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "E"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "dd"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "ddd"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "dddd"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "a"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "A"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "H"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "h"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "k"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "HH"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "hh"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "kk"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "hmm"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "hmmss"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Hmm"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Hmmss"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Z"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "ZZ"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "N"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "NN"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "NNN"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "NNNN"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "NNNNN"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "y"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "yy"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "yyy"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "yyyy"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "yo"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "G"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "g"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "GG"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "gg"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "GGGG"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "gggg"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "GGGGG"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "ggggg"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Q"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "D"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "DD"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "Do"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "DDD"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "DDDD"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "m"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "mm"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "s"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "ss"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "S"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "SS"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "SSS"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "x"
+msgstr ""
+
+#: js/dependencies.min.js:1
+msgid "X"
+msgstr ""
+
+#: pro/classes/aam-pro-admin.class.php:29
+#, php-format
+msgid ""
+"You won't receive updates for this plugin unless you <a href=\"%s\">enter "
+"your license key</a>. If you don't have a license key, you can find out more "
+"about <a href=\"%s\">pricing and details</a>."
+msgstr ""
+"Sie können keine Update für dieses Plugin installieren, ohne einen <a "
+"href=\"%s\">Lizenzschlüssel eingegeben zu haben</a>. Wenn Sie keinen "
+"Lizenzschlüssel besitzen, können Sie sich hier über <a href=\"%s\">Preise "
+"und Details informieren</a>."
+
+#: pro/classes/aam-pro-admin.class.php:57
+msgid "End time must be after start time."
+msgstr "Endzeit muss später als die Startzeit sein."
+
+#: pro/classes/aam-pro-admin.class.php:61
+msgid "Please enter a valid date."
+msgstr "Bitte geben Sie ein gültiges Datum ein."
+
+#: pro/classes/aam-pro-admin.class.php:144
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: pro/classes/aam-pro-admin.class.php:160
+msgid ""
+"After you enable this feature, a link will be displayed here for you to "
+"enter into your calendar app."
+msgstr ""
+"Nachdem Sie die Funktion aktiviert haben, wird hier ein Link angezeigt den "
+"Sie in Ihrem Kalenderprogramm eingeben können."
+
+#: pro/classes/aam-pro-admin.class.php:163
+#: views/admin/tab-category-override.php:74
+msgid "Your calendar link:"
+msgstr "Ihr Kalender Link:"
+
+#: pro/classes/aam-pro-admin.class.php:165
+msgid ""
+"Enter this link into your calendar app. If you are unsure about what to do, "
+"look for something like 'Calendar subscription' or 'Add calendar/ics URL'."
+msgstr ""
+"Geben Sie diesen Link in Ihrem Kalenderprogramm ein. Wenn Sie nicht sicher "
+"sind wie, suchen Sie nach einer Funktion wie „Kalenderabonnement“ oder "
+"„Kalender/ICS URL hinzufügen“."
+
+#: pro/classes/aam-pro-admin.class.php:170
+msgid ""
+"Please be aware that anyone with this link can see your appointments. If you "
+"suspect that an unauthorized person has gained access, please disable and "
+"reenable this option to generate a new link."
+msgstr ""
+"Bitte beachten Sie, dass jeder mit dem Link Zugriff auf Ihre Terminbuchungen "
+"hat. Wenn Sie vermuten, dass jemand Unberechtigter Zugriff hat, deaktivieren "
+"und aktivieren Sie die Funktion erneut, um einen neuen Link zu generieren."
+
+#: pro/classes/aam-pro-admin.class.php:268
+#: pro/classes/aam-pro-admin.class.php:304
+msgid "Text area"
+msgstr "Mehrzeiliger Text"
+
+#: pro/classes/aam-pro-admin.class.php:275
+#: pro/classes/aam-pro-admin.class.php:319
+#: pro/classes/aam-pro-admin.class.php:321
+msgid "Comma separated values"
+msgstr "Beistrichgetrennte Werte"
+
+#: pro/classes/slottable.class.php:31
+msgid "Max. bookings/slot"
+msgstr "Max. Buchungen/Slot"
+
+#: pro/classes/slottable.class.php:32 pro/views/admin/tab-individual.php:93
+#: views/admin/tab-individual.php:68
+msgid "Recurring"
+msgstr "Wiederkehrend"
+
+#: pro/classes/slottable.class.php:54 pro/views/admin/tab-individual.php:100
+#: views/admin/tab-individual.php:75
+msgid "Every day"
+msgstr "Jeden Tag"
+
+#: pro/classes/slottable.class.php:57 pro/views/admin/tab-individual.php:101
+#: views/admin/tab-individual.php:76
+msgid "Every week"
+msgstr "Jede Woche"
+
+#: pro/classes/slottable.class.php:61 pro/views/admin/tab-individual.php:102
+#: views/admin/tab-individual.php:77
+msgid "Every month"
+msgstr "Jeden Monat"
+
+#: pro/classes/slottable.class.php:64
+msgid "Every year"
+msgstr "Jedes Jahr"
+
+#: pro/classes/slottable.class.php:73 pro/views/admin/tab-individual.php:124
+msgid "until"
+msgstr "bis"
+
+#: pro/classes/slottable.class.php:132
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: pro/classes/slottable.class.php:133
+msgid "Save"
+msgstr "Speichern"
+
+#: pro/classes/slottable.class.php:135
+msgctxt "Cancel Action"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: pro/views/admin/tab-individual.php:11 views/admin/tab-individual.php:11
+msgid ""
+"Individual appointment slots are ideal for creating one-time events or "
+"events that recur during a limited time frame."
+msgstr ""
+"Individuelle Termine sind ideal für einmalige Veranstaltungen oder Termine "
+"die sich innerhalb eines Zeitraumes wiederholen."
+
+#: pro/views/admin/tab-individual.php:17 pro/views/admin/tab-individual.php:118
+#: views/admin/tab-individual.php:22 views/admin/tab-individual.php:92
+msgid "Add appointment slot"
+msgstr "Terminslot hinzufügen"
+
+#: pro/views/admin/tab-individual.php:31 views/admin/tab-individual.php:35
+msgid "Start time"
+msgstr "Beginn"
+
+#: pro/views/admin/tab-individual.php:35 views/admin/tab-individual.php:39
+msgid "End time"
+msgstr "Ende"
+
+#: pro/views/admin/tab-individual.php:44 views/admin/tab-individual.php:47
+msgid "Price"
+msgstr "Preis"
+
+#: pro/views/admin/tab-individual.php:45 views/admin/tab-individual.php:48
+msgid "Optional"
+msgstr "Optional"
+
+#: pro/views/admin/tab-individual.php:97 views/admin/tab-individual.php:72
+msgid "Interval"
+msgstr "Intervall"
+
+#: pro/views/admin/tab-individual.php:107 views/admin/tab-individual.php:82
+msgid "End of recurrence (leave empty to repeat indefinitely)"
+msgstr "Ende der Wiederholung (leer lassen für unlimitierte Wiederholung)"
+
+#: pro/views/admin/tab-individual.php:123
+msgid "Appointment slots"
+msgstr "Terminslots"
+
+#: pro/views/admin/tab-rule-based.php:11 views/admin/tab-rule-based.php:11
+msgid ""
+"Rule-based appointment slots are defined by fixed parameters like your "
+"office hours. Use this for appointments that are available every week during "
+"fixed office hours."
+msgstr ""
+"Regelbasierte Termine werden durch Parameter wie Öffnungszeiten definiert. "
+"Verwenden Sie diese Funktion für Termine, die jede Woche während fixer "
+"Zeiten verfügbar sind."
+
+#: pro/views/admin/tab-rule-based.php:27 pro/views/admin/tab-rule-based.php:71
+#: views/admin/tab-rule-based.php:27 views/admin/tab-rule-based.php:68
+msgid "Add exception"
+msgstr "Ausnahme hinzufügen"
+
+#: pro/views/admin/tab-rule-based.php:54 views/admin/tab-rule-based.php:54
+msgid "For category"
+msgstr "Für Kategorie"
+
+#: pro/views/admin/tab-rule-based.php:57 views/admin/tab-rule-based.php:58
+msgid "All"
+msgstr "Alle"
+
+#: pro/views/admin/tab-rule-based.php:76 pro/views/admin/tab-rule-based.php:87
+#: views/admin/tab-rule-based.php:73 views/admin/tab-rule-based.php:83
+msgid "Import holidays"
+msgstr "Feiertage importieren"
+
+#: pro/views/admin/tab-rule-based.php:84 views/admin/tab-rule-based.php:81
+msgid "Austria"
+msgstr "Österreich"
+
+#: pro/views/admin/tab-rule-based.php:85
+msgid "Germany"
+msgstr "Deutschland"
+
+#: pro/views/admin/tab-rule-based.php:93 views/admin/tab-rule-based.php:89
+msgid ""
+"Statutory holidays for the next three years will be added to the list of "
+"exceptions."
+msgstr ""
+"Gesetzliche Feiertage für die nächsten drei Jahre werden zu den Ausnahmen "
+"hinzugefügt."
+
+#: pro/views/admin/tab-rule-based.php:101 views/admin/tab-rule-based.php:101
+msgid "Exceptions"
+msgstr "Ausnahmen"
+
+#: pro/views/admin/tab-settings.php:16
+msgid ""
+"Add the calendar widget to any page by pasting one of these shortcodes into "
+"the editor."
+msgstr ""
+"Fügen Sie das Kalender Widget zu einer beliebigen Seite hinzu, indem Sie "
+"einen dieser Shortcodes in den Editor kopieren."
+
+#: pro/views/admin/tab-settings.php:19 views/admin/tab-settings.php:19
+msgid "All appointments"
+msgstr "Alle Termine"
+
+#: pro/views/admin/tab-settings.php:23
+msgid "List view"
+msgstr "Listenansicht"
+
+#: pro/views/frontend-list-inner.php:44
+msgid "No appointments available"
+msgstr "Keine Termine verfügbar"
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Details anzeigen"
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Mehr Informationen über %s"
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Nach Updates suchen"
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:214
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Das %s Plugin ist auf dem aktuellsten Stand."
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:216
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Eine neue Version von %s ist verfügbar."
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:218
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Suche nach Aktualisierungen für %s fehlgeschlagen."
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Plugin/Ui.php:224
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Unbekannter Status „%s“"
+
+#: vendor/yahnis-elsts/plugin-update-checker/Puc/v4p13/Vcs/PluginUpdateChecker.php:100
+msgid "There is no changelog available."
+msgstr "Kein Changelog verfügbar."
+
+#: views/admin/tab-category-override.php:47
+#, php-format
+msgid "Override settings for category \"%s\""
+msgstr "Einstellungen überschreiben für Kategorie „%s“"
+
+#: views/admin/tab-category-override.php:67
+msgid "ICS Calendar subscription"
+msgstr "ICS Kalender Abonnement"
+
+#: views/admin/tab-category-override.php:71
+msgid ""
+"Please enable calendar subscriptions in the general settings to use this "
+"feature."
+msgstr ""
+"Bitte aktivieren Sie Kalender Abonnements in den allgemeinen Einstellungen, "
+"um diese Funktion zu nutzen."
+
+#: views/admin/tab-category-override.php:76
+#, php-format
+msgid "This calendar will only show appointments made for this category (%s)."
+msgstr ""
+"Dieser Kalender zeigt nur Termine, die für diese Kategorie vereinbart wurden "
+"(%s)."
+
+#: views/admin/tab-category-override.php:90
+msgid "Enable rule-based slots for this category"
+msgstr "Aktiviere regelbasierte Termine für diese Kategorie"
+
+#: views/admin/tab-category-override.php:242
+msgid "Override Microsoft Exchange Connection"
+msgstr "Microsoft Exchange Verbindung überschreiben"
+
+#: views/admin/tab-category-override.php:254
+msgid "Exchange muss in den globalen Einstellungen aktiviert sein."
+msgstr "Exchange muss in den globalen Einstellungen aktiviert sein."
+
+#: views/admin/tab-category-override.php:272
+msgid "Username"
+msgstr "Username"
+
+#: views/admin/tab-category-override.php:278
+msgid "Password"
+msgstr "Passwort"
+
+#: views/admin/tab-category-override.php:290
+msgid "Back to General Settings"
+msgstr "Zurück zu allgemeine Einstellungen"
+
+#: views/admin/tab-email.php:11
+msgid ""
+"E-Mail text templates allow you to save time by predefining answers to your "
+"customer's appointment requests."
+msgstr ""
+"E-Mail Textvorlagen ersparen Ihnen Zeit, indem Sie vordefinierte Antworten "
+"auf Terminanfragen verschicken können."
+
+#: views/admin/tab-email.php:17
+msgid "Placeholder for customer data"
+msgstr "Platzhalter für Kundendaten"
+
+#: views/admin/tab-email.php:19
+msgid ""
+"Use these placeholders in your template text and they will be dynamically "
+"replaced with the appropriate data for each appointment."
+msgstr ""
+"Verwenden Sie diese Platzhalter in den E-Mail Texten und sie werden für jede "
+"Anfrage automatisch mit den passenden Daten ersetzt."
+
+#: views/admin/tab-email.php:40
+msgid "Date of the appointment"
+msgstr "Datum der Buchung"
+
+#: views/admin/tab-email.php:44
+msgid "Time slot of the appointment (e.g. 10:00 - 11:00)"
+msgstr "Zeitfenster der Buchung (z.B.: 10:00 - 11:00)"
+
+#: views/admin/tab-settings.php:16
+msgid ""
+"Add the calendar widget to any page by pasting this shortcode into the "
+"editor."
+msgstr ""
+"Fügen Sie das Kalender Widget zu einer beliebigen Seite hinzu, indem Sie "
+"diesen Shortcode in den Editor kopieren."
+
+#: views/admin/tab-settings.php:23
+msgid ""
+"You want even more features like single or repeating appointment slots, ICS "
+"calendar subscription, categories and much more?"
+msgstr ""
+"Sie brauchen noch mehr Funktionen wie einzelne oder wiederkehrende Termine, "
+"ICS Kalenderabonnement, Kategorien und noch vieles mehr?"
+
+#: views/admin/tab-settings.php:24
+msgid "Get AAM PRO"
+msgstr "Holen Sie sich AAM PRO"
+
+#: views/admin/tab-table.php:13
+msgid "Current Appointments"
+msgstr "Aktuelle Termine"
+
+#: views/admin/tab-table.php:19
+msgid "Cancelled & Past Appointments"
+msgstr "Abgesagte & Vergangene Termine"
+
+#: views/admin/tab-table.php:25
+msgid "Show Archive"
+msgstr "Archiv anzeigen"
+
+#: views/frontend-calendar.php:35
+msgid ""
+"Sorry, there was a problem loading the calendar. Please check your internet "
+"connection and reload this page."
+msgstr ""
+"Entschuldigung, es gab ein Problem beim Laden des Kalenders. Bitte "
+"überprüfen Sie die Internetverbindung und laden Sie die Seite neu."
+
+#: views/frontend-modal.php:34
+msgid "To overview"
+msgstr "Zur Übersicht"
+
+#: views/frontend-modal.php:37
+msgid "More information"
+msgstr "Mehr Informationen"
+
+#: views/frontend-modal.php:124
+msgid "More information on our privacy policy"
+msgstr "Mehr dazu in unserer Datenschutzerklärung"
+
+#: views/frontend-modal.php:149 views/frontend-modal.php:153
+#: views/frontend-modal.php:159 views/frontend-modal.php:161
+msgid "Remove this time slot"
+msgstr "Diesen Terminslot entfernen"
+
+#: views/frontend-modal.php:150 views/frontend-modal.php:154
+msgid "Remove all time slots of this category on this day"
+msgstr "Alle Termine dieser Kategorie an diesem Tag entfernen"
+
+#: views/frontend-modal.php:151 views/frontend-modal.php:155
+msgid "Remove all time slots on this day"
+msgstr "Alle Termine an diesem Tag entfernen"
+
+#: views/frontend-modal.php:152 views/frontend-modal.php:160
+#: views/frontend-modal.php:166
+msgid "Mark as fully booked"
+msgstr "Als ausgebucht markieren"
+
+#: views/frontend-modal.php:165 views/frontend-modal.php:167
+msgid "Remove these time slots"
+msgstr "Diese Terminslots entfernen"
+
+#: views/quick-reply-admin.php:36 views/quick-reply-admin.php:85
+msgid "confirmed"
+msgstr "bestätigt"
+
+#: views/quick-reply-admin.php:58 views/quick-reply-admin.php:85
+msgid "cancelled"
+msgstr "abgesagt"
+
+#: views/quick-reply-admin.php:77
+msgid "here"
+msgstr "hier"
+
+#: views/quick-reply-admin.php:114
+#, php-format
+msgid "The appointment has already been %s."
+msgstr "Der Termin wurde bereits %s."
+
+#: views/quick-reply-admin.php:118
+#, php-format
+msgid "The appointment has been %s."
+msgstr "Der Termin wurde %s."
+
+#: views/quick-reply-admin.php:123
+msgid "Your customer has received an e-mail confirmation"
+msgstr "Ihr Kunde hat eine E-Mail-Bestätigung erhalten"
+
+#: views/quick-reply-admin.php:125
+#, php-format
+msgid "Click %s if your email window does not open automatically."
+msgstr "Klicken Sie %s wenn sich das E-Mail Fenster nicht automatisch öffnet."
+
+#: views/quick-reply-admin.php:154
+msgid "Download Calendar (ics) File"
+msgstr "Kalenderdatei (ics) herunterladen"
+
+#: views/quick-reply-admin.php:161 views/quick-reply-user.php:86
+msgid "Go to"
+msgstr "Gehe zu"
+
+#: views/quick-reply-user.php:69
+msgid "Do you really want to cancel your appointment?"
+msgstr "Wollen Sie den Termin wirklich absagen?"
+
+#: views/quick-reply-user.php:77
+msgid "Cancel appointment"
+msgstr "Termin absagen"
+
+#: views/quick-reply-user.php:81
+msgid ""
+"Your appointment has been cancelled. Please contact us to find a different "
+"arrangement."
+msgstr ""
+"Ihr Termin wurde abgesagt. Bitte kontaktieren Sie uns, um einen anderen "
+"Termin zu finden."
+
+#~ msgid "Background image"
+#~ msgstr "Hintergrundbild"
+
+#~ msgid "Choose another date"
+#~ msgstr "Anderen Termin wählen"
+
+#~ msgid "Fully booked"
+#~ msgstr "Ausgebucht"
+
+#~ msgid "Day"
+#~ msgstr "Tag"
+
+#~ msgid "E-Mail Text"
+#~ msgstr "E-Mail Text"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Override Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Delete?"
+#~ msgstr "Löschen?"
+
+#~ msgid "User E-Mail"
+#~ msgstr "E-Mail Adresse des Kunden"
+
+#~ msgid "Archive"
+#~ msgstr "Archiv"
+
+#~ msgid "Rule-based appointments only"
+#~ msgstr "Nur regelbasierte Termine"
+
+#~ msgid "Individual appointments only"
+#~ msgstr "Nur individuelle Termine"
+
+#~ msgid ""
+#~ "The number of days between the current day and the first available "
+#~ "appointment.<br />For example:<br />0: Appointments can be booked for "
+#~ "today<br />1: Earliest appointment available tomorrow"
+#~ msgstr ""
+#~ "Die Anzahl an Tagen zwischen dem aktuellen Tag und dem ersten verfügbaren "
+#~ "Termin.<br />Zum Beispiel:<br />0: Termine können noch für heute gebucht "
+#~ "werden<br />1: Termine ab morgen verfügbar"
+
+#~ msgid "Code copied!"
+#~ msgstr "Code kopiert!"
+
+#~ msgid "No recurrence"
+#~ msgstr "Keine Wiederholung"
+
+#~ msgid "Deleted"
+#~ msgstr "Gelöscht"
+
+#~ msgid "Accepted"
+#~ msgstr "Angenommen"
+
+#~ msgid "Accept"
+#~ msgstr "Annehmen"
+
+#~ msgid "Feiertage importieren"
+#~ msgstr "Feiertage importieren"
